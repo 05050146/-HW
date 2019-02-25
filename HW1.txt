@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title> </title>
+</head>	
+
+<body>
+
+<center>
+	<h1>homework1 </h1>
+	<table>
+		<tr>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=MObfMvb-IQI5KM:"><img src="GG\1.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=OKznFPqtVn9yaM:"><img src="GG\2.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=ui7ovFp4GAIR6M:"><img src="GG\3.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=C6ZwfGQraMx2PM:"><img src="GG\4.png"></a></td>
+		
+		<tr>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=Wlh_Rp1fKL-R_M:"><img src="GG\5.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=I6DS4s-jZStayM:"><img src="GG\6.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=9qi0bggatEn_lM:"><img src="GG\7.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=4FFTXUDBmodoSM:"><img src="GG\8.png"></a></td>
+		
+		</tr>
+		<td><a href="https://www.google.com.tw/search?q=%E5%8F%AF%E6%84%9B%E8%B2%93%E5%92%AA&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiI46SEsdbgAhX8IaYKHXIaAq0Q_AUIDigB&biw=1920&bih=969#imgrc=O33v9Jm-gjzOCM:"><img src="GG\9.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?biw=1920&bih=969&tbm=isch&sa=1&ei=GZxzXO-CN-mQr7wPq4ayYA&q=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&oq=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&gs_l=img.3..0l6.415374.416583..417165...0.0..0.33.237.8......0....1..gws-wiz-img.......0i10i24.0lnCryk5ab8#imgrc=WEte6uRvr09MgM:"><img src="GG\10.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?biw=1920&bih=969&tbm=isch&sa=1&ei=GZxzXO-CN-mQr7wPq4ayYA&q=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&oq=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&gs_l=img.3..0l6.415374.416583..417165...0.0..0.33.237.8......0....1..gws-wiz-img.......0i10i24.0lnCryk5ab8#imgrc=k4FU3jo07zkTUM:"><img src="GG\11.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?biw=1920&bih=969&tbm=isch&sa=1&ei=GZxzXO-CN-mQr7wPq4ayYA&q=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&oq=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&gs_l=img.3..0l6.415374.416583..417165...0.0..0.33.237.8......0....1..gws-wiz-img.......0i10i24.0lnCryk5ab8#imgrc=PRHCxn2S6cdqgM:"><img src="GG\12.png"></a></td>
+		
+		</tr>
+		<td><a href="https://www.google.com.tw/search?biw=1920&bih=969&tbm=isch&sa=1&ei=GZxzXO-CN-mQr7wPq4ayYA&q=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&oq=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&gs_l=img.3..0l6.415374.416583..417165...0.0..0.33.237.8......0....1..gws-wiz-img.......0i10i24.0lnCryk5ab8#imgrc=vhZFgaAXGtRAVM:"><img src="GG\13.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?biw=1920&bih=969&tbm=isch&sa=1&ei=GZxzXO-CN-mQr7wPq4ayYA&q=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&oq=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&gs_l=img.3..0l6.415374.416583..417165...0.0..0.33.237.8......0....1..gws-wiz-img.......0i10i24.0lnCryk5ab8#imgrc=quZa1G680FVP2M:"><img src="GG\14.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?biw=1920&bih=969&tbm=isch&sa=1&ei=GZxzXO-CN-mQr7wPq4ayYA&q=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&oq=%E5%8F%AF%E6%84%9B%E6%9F%AF%E5%9F%BA&gs_l=img.3..0l6.415374.416583..417165...0.0..0.33.237.8......0....1..gws-wiz-img.......0i10i24.0lnCryk5ab8#imgrc=ROCkUnxiNDep5M:"><img src="GG\15.png"></a></td>
+		<td><a href="https://www.google.com.tw/search?biw=1920&bih=969&tbm=isch&sa=1&ei=u51zXPbGG_WUr7wPtcWA6AE&q=%E6%9F%AF%E5%9F%BA+%E5%A5%BD%E7%AC%91&oq=%E6%9F%AF%E5%9F%BA+%E5%A5%BD%E7%AC%91&gs_l=img.3...364084.368027..368418...0.0..0.34.479.17......0....1..gws-wiz-img.....0..0j0i24.ik9x-ZV2Xxw#imgrc=KA-IMJUV5FzQdM:"><img src="GG\16.png"></a></td>
+	
+</center>
+
+</body>
+
+</html>
