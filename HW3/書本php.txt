@@ -1,0 +1,57 @@
+<html>
+<body>
+<?php
+	$A = $_GET[php];
+	$B = $_GET[c_language];
+	$C = $_GET[data_book];
+	$name = $_GET[MyName];
+	$gg = $_GET[discount];
+	
+	$a = $_GET[number1];
+	$b = $_GET[number2];
+	$c = $_GET[number3];
+	
+	echo "使用者名稱:".$name;
+	
+	
+	if($A == "400")
+	{
+		echo "<br>購買物品:php 入門書 *".$a;
+		$D+=400*$a;
+	}
+	if($B == "550")
+	{
+		echo "	c 語言入門書 *".$b;
+		$D+=550*$b;
+	}
+	if($C == "800")
+	{
+		echo "	資料結構原文書 *".$c;
+		$D+=800*$c;
+	}
+	if($gg == "0.7")
+	{
+		echo "<br>會員資格:金卡會員";
+		echo "<br>折扣:7折";
+		$D*=0.7;
+	}
+	if($gg == "0.8")
+	{	
+		echo "<br>會員資格:銀卡會員";
+		echo "<br>折扣:8折";
+		$D*=0.8;
+	}
+	if($gg == "0.95")
+	{
+		echo "<br>會員資格:一般會員";
+		echo "<br>折扣:95折";
+		$D*=0.95;
+	}
+	
+	
+	echo "<br>總金額:".$D;
+?>	
+</body>
+
+
+</html>
