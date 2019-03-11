@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>hw02</title>
+</head>
+<body>	
+<form action="purchase.php" method="get">
+輸入姓名: <input type= "test" name = "MyName"><br>
+
+請勾選您想購買的項目<br>
+	<input type="checkbox" value="400" name="php"> php 入門書   $400  數量: <input type= "test" name = "number1"><br>
+	<input type="checkbox" value="550" name="c_language"> c 語言入門書  $ 550 數量: <input type= "test" name = "number2"><br>
+	<input type="checkbox" value="800" name="data_book"> 資料結構原文書  $ 800 數量: <input type= "test" name = "number3"><br>
+
+
+<select name="discount">
+	<option value="0.7">金卡會員 7折</option>
+	<option value="0.8">銀卡會員 8折</option>
+	<option value="0.95">一般會員 95折</option>
+
+</select>
+　<input type="submit" value="送出表單">
+</form>
+　
+
+
+	
+</body>
+</html>
