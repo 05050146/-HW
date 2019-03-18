@@ -1,0 +1,10 @@
+<?php
+$GG = <<<hw
+A Window Seat\nA: Which do you prefer, a window seat or an aisle seat?\nB: I always prefer a window seat.\nA: Why?\nB: In case some bad thing happen I can jump out from it.
+hw;
+
+$work = nl2br($GG);
+
+
+echo ucwords($work);
+?>
