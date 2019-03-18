@@ -1,0 +1,37 @@
+<?php
+function calculate($year)
+{
+	$gg=[];
+	for($yy=1;$yy<=$year;$yy++)
+	{
+		if($yy%4==0 && $yy%100!=0 || $yy%400==0)
+			array_push($gg,$yy);
+			
+	}
+	
+	
+		return $gg;
+	}
+	
+	$year=$_GET[year];
+	
+	echo "<div align='center'>";
+	$gg=calculate($year);
+	echo "<table border='1'>";
+	
+
+	echo "<tr>";
+	
+	$td=0;
+	for($i=0;$i<count($gg);$i++)
+	{
+		echo "<td>".$gg[$i];
+		$td=$td+1;
+	
+		if ($td%10==0)
+			echo "<tr>";
+	}
+	
+	echo "</table>";
+	echo "</div>";
+?>
