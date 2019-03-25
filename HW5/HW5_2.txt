@@ -1,0 +1,79 @@
+<?php
+	
+header("Content-Type:text/html; charset = big5");
+date_default_timezone_set("Asia/Taipei");
+
+$timestamp =strtotime(date("Y-m-01"));     //可取得該月第一天的時間戳記
+$day = date("t",$timestamp);		//可取得該月有幾天
+$gg = date("w",$timestamp);			//可取得該月1號是該週的星期幾
+echo("$day <br>");
+echo("$gg <br>");
+
+echo "<table border=1>";
+echo "<tr>";
+echo "<td>週日</td><td>週一</td><td>週二</td><td>週三</td><td>週四</td><td>週五</td><td>週六</td>";
+echo "</tr>";
+
+for ($i=1;$i+$gg<=7;$i+=7)
+{
+echo " <tr> ";                                                   //會有5個tr出現。
+echo " <td> ";                             //週日td
+for($gg;$gg>0;$gg--)
+{echo " <td> ";}  
+
+echo $i;
+echo " </td> ";
+    
+	if($i<2)
+	{
+		for ($j=1;$j<=1;$j++)
+		if (($i+$j)%7 == 0 and ($i+$j)<=$day)               
+		{echo " <td> ";}                            
+	
+		else { echo " <td> "; }                                       
+			if (($i+$j)>$day)                                             
+		{echo "";}                                                        
+		
+		else
+		{
+			$k=++$i;
+			echo ("$k");
+		}
+		echo " </td> ";
+	}
+		
+	
+echo " </tr> ";
+
+}
+
+for ($i=$k+1;$i<=$day;$i+=7)
+{
+echo " <tr> ";                                                  
+echo " <td> ";                             
+
+
+echo $i;
+echo " </td> ";
+    
+	
+	for ($j=1;$j<=6;$j++)
+	{
+		if (($i+$j)%7 == 0 and ($i+$j)<=$day)                
+		{echo " <td> ";}                            
+	
+		else { echo " <td> "; }                                       
+			if (($i+$j)>$day)                                            
+		{echo "";}                                                       
+   
+		else{echo $i+$j;}                                             
+		echo " </td> ";
+	}
+	
+	
+echo " </tr> ";
+
+}
+
+echo "</table>";
+?>
