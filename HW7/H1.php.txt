@@ -1,0 +1,121 @@
+<?php
+header("Content-Type: text/html; charset=utf-8");
+
+if(isset($_GET["question"]) && ($_GET["question"]!="")){
+	if(isset($_GET["answer1"]) && ($_GET["answer1"]!="")){
+		setcookie("answer1",$_GET["answer1"],time()+3600);
+		header("Location: H1.php?step=2");
+		}
+		
+		if(isset($_GET["answer2"]) && ($_GET["answer2"]!="")){
+		setcookie("answer2",$_GET["answer1"],time()+3600);
+		header("Location: H1.php?result=true");
+		}
+
+		
+}
+
+
+
+
+?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8">
+<title>線上測驗</title>
+</head>
+<body>
+<p>線上測驗:</p>
+<?php if(($_SERVER['QUERY_STRING']=="")|| isset($_GET["restart"])){?>
+<p><a href="H1.php?step=1">準備好10秒了嗎?請按此開始星爆!</a></p>
+<?php }?>
+<?php if(isset($_GET["step"]) && ($_GET["step"]==1)){?>
+<form id="form1" name="form1" method="get" action="">
+	<p>1.在場外休憩區流行那款不能說的遊戲是?</p>
+	<p><input name="answer1" type="radio" id="radio" value="1" checked="checked"/>
+	劍靈<br />
+	<input type="radio" name="answer1" id="radio2" value="2" />
+	Sword Art Online<br />
+	<input type="radio" name="answer1" id="radio3" value="3" />
+	新楓之谷<br />
+	<input type="radio" name="answer1" id="radio4" value="4" />
+	刺客教條</p>
+   <p>
+	<input type="submit" id="button" value="下一步" />
+	<input name="question" type="hidden" id="question" value="true" />
+   </p>
+</form>
+<?php } else if(isset($_GET["step"]) && ($_GET["step"]==2)){?>
+<form id="form1" name="form1" method="get" action="">
+	<p>2.請問動畫'烘焙王'中,基德沒擔任過甚麼職業?</p>
+	<p><input name="answer2" type="radio" id="radio5" value="1" checked="checked"/>
+	律師<br />
+	<input type="radio" name="answer2" id="radio6" value="2" />
+	電腦工程師<br />
+	<input type="radio" name="answer2" id="radio7" value="3" />
+	烘焙師<br />
+	<input type="radio" name="answer2" id="radio8" value="4" />
+	按摩師</p>
+   <p>
+   <input type="submit" id="button2" value="完成" />
+   <input name="question" type="hidden" id="question" value="true" />
+   </p>
+</form>
+<?php }?>
+<p>
+	<?php  if(isset($_GET["result"]) && ($_GET["result"]=="ture")){?>
+</p>
+<p>作答結果:</p>
+<p>1.在場外休憩區流行那款不能說的遊戲是?</p>
+<p>您選擇的答案是:</p>
+<?php
+if(isset($_COOKIE["answer1"]) && ($_COOKIE["answer1"]!="")){
+	switch ($_COOKIE["answer1"]){
+		case "1":
+			echo "<p>劍靈</p>";
+			echo "<font color=\"red\"><p>答錯囉!回去重修!</p></font>";
+			echo "<p>正確答案是 Sword Art Online</p>";
+			break;
+		case "2":
+			echo "<p>Sword Art Online</p>";
+			echo "<font color=\"blue\"><p>答對囉!!</p></font>";
+			break;
+		case "3":
+			echo "<p>新楓之谷</p>";
+			echo "<font color=\"red\"><p>答錯囉!回去重修!</p></font>";
+			echo "<p>正確答案是 Sword Art Online</p>";
+			break;
+		case "4":
+			echo "<p>刺客教條</p>";
+			echo "<font color=\"red\"><p>答錯囉!回去重修!</p></font>";
+			echo "<p>正確答案是 Sword Art Online</p>";
+			break;
+		}	
+} ?>
+<p>2.請問動畫'烘焙王'中,基德沒擔任過甚麼職業?</p>
+<p>您選擇的答案是:</p>
+<?php
+if(isset($_COOKIE["answer1"]) && ($_COOKIE["answer1"]!="")){
+	switch ($_COOKIE["answer1"]){
+		case "1":
+			echo "<p>律師</p>";
+			echo "<font color=\"red\"><p>答錯囉!回去重修!</p></font>";
+			echo "<p>正確答案是 電腦工程師</p>";
+			break;
+		case "2":
+			echo "<p>電腦工程師</p>";
+			echo "<font color=\"blue\"><p>答對囉!!</p></font>";
+			break;
+		case "3":
+			echo "<p>烘焙師</p>";
+			echo "<font color=\"red\"><p>答錯囉!回去重修!</p></font>";
+			echo "<p>正確答案是 電腦工程師</p>";
+			break;
+		case "4":
+			echo "<p>按摩師</p>";
+			echo "<font color=\"red\"><p>答錯囉!回去重修!</p></font>";
+			echo "<p>正確答案是 電腦工程師</p>";
+			break;
+		}
+	} ?>
+<?php }?>
