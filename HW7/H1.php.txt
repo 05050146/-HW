@@ -1,20 +1,15 @@
 <?php
-header("Content-Type: text/html; charset=utf-8");
-
+header("Content-Type:text/html; charset=utf-8");
 if(isset($_GET["question"]) && ($_GET["question"]!="")){
 	if(isset($_GET["answer1"]) && ($_GET["answer1"]!="")){
-		setcookie("answer1",$_GET["answer1"],time()+3600);
+		setcookie("answer1",$_GET["answer1"]);
 		header("Location: H1.php?step=2");
-		}
-		
-		if(isset($_GET["answer2"]) && ($_GET["answer2"]!="")){
-		setcookie("answer2",$_GET["answer1"],time()+3600);
-		header("Location: H1.php?result=true");
-		}
-
-		
+	}
+	if(isset($_GET["answer2"]) && ($_GET["answer2"]!="")){
+		setcookie("answer2",$_GET["answer2"]);
+		header("Location: H1.php?result=ture");
+	}
 }
-
 
 
 
@@ -63,7 +58,7 @@ if(isset($_GET["question"]) && ($_GET["question"]!="")){
 </form>
 <?php }?>
 <p>
-	<?php  if(isset($_GET["result"]) && ($_GET["result"]=="ture")){?>
+	<?php if(isset($_GET["result"]) &&($_GET["result"]=="ture")) { ?>
 </p>
 <p>作答結果:</p>
 <p>1.在場外休憩區流行那款不能說的遊戲是?</p>
@@ -95,8 +90,8 @@ if(isset($_COOKIE["answer1"]) && ($_COOKIE["answer1"]!="")){
 <p>2.請問動畫'烘焙王'中,基德沒擔任過甚麼職業?</p>
 <p>您選擇的答案是:</p>
 <?php
-if(isset($_COOKIE["answer1"]) && ($_COOKIE["answer1"]!="")){
-	switch ($_COOKIE["answer1"]){
+if(isset($_COOKIE["answer2"]) && ($_COOKIE["answer2"]!="")){
+	switch ($_COOKIE["answer2"]){
 		case "1":
 			echo "<p>律師</p>";
 			echo "<font color=\"red\"><p>答錯囉!回去重修!</p></font>";
@@ -118,4 +113,5 @@ if(isset($_COOKIE["answer1"]) && ($_COOKIE["answer1"]!="")){
 			break;
 		}
 	} ?>
+	 <a href='?restart'>重來一次</a>
 <?php }?>
